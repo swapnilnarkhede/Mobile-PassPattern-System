@@ -1,1 +1,8 @@
-This is first Readme
+The key factor is security of the
+information such as password that is used for authentication.
+Besides, all identification related information follow the first
+authentication step. We propose a simple, yet elegant method
+called Mobile PassPattern System (MPPS) to solve the
+authentication problem in a ubiquitous manner. We have shown
+that MPPS withstands all known attacks relevant to this mode of
+authentication.
