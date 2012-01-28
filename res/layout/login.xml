@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+       >
+       <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:id="@+id/one"
+           android:text="1"
+           />
+       <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="2"
+           android:id="@+id/two"
+           android:layout_below="@id/one"/>
+       
+       
+       <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="3"
+           android:id="@+id/three"
+           android:layout_toRightOf="@id/one"/>
+       
+       
+       <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="4"
+           android:id="@+id/four"
+           android:layout_toRightOf="@id/two"
+           android:layout_below="@id/three"/>
+
+       
+       
+       <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="5"
+           android:id="@+id/five"
+           android:layout_below="@id/two"/> 
+           
+           
+		<Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="6"
+           android:id="@+id/six"
+           android:layout_below="@id/four"
+           android:layout_toRightOf="@id/two"/>  
+           
+		<Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="7"
+           android:id="@+id/seven"
+           android:layout_toRightOf="@id/three"/>
+		
+		<Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="8"
+           android:id="@+id/eight"
+           android:layout_below="@id/seven"
+           android:layout_toRightOf="@id/four"/>
+		
+		<Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="9"
+           android:id="@+id/nine"
+           android:layout_below="@id/eight"
+           android:layout_toRightOf="@id/six"
+           />
+		
+		<Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="10"
+           android:id="@+id/ten"
+           android:layout_below="@id/five"/>
+		
+		<Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="11"
+           android:id="@+id/eleven"
+           android:layout_below="@id/six"
+           android:layout_toRightOf="@id/ten"></Button>
+           
+           <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="12"
+           android:id="@+id/tvelve"
+           android:layout_below="@id/nine"
+           android:layout_toRightOf="@id/eleven"/>
+           
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="13"
+           android:id="@+id/thirteen"
+           android:layout_below="@id/ten"
+           />
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="14"
+           android:id="@+id/fourteen"
+           android:layout_below="@id/eleven"
+           android:layout_toRightOf="@id/thirteen"/>
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="15"
+           android:id="@+id/fifteen"
+           android:layout_below="@id/tvelve"
+           android:layout_toRightOf="@id/fourteen"/>
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="16"
+           android:id="@+id/sixteen"
+           android:layout_toRightOf="@id/seven"/>
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="17"
+           android:id="@+id/seventeen"
+           android:layout_below="@id/sixteen"
+           android:layout_toRightOf="@id/eight"/>
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="18"
+           android:id="@+id/eighteen"
+           android:layout_below="@id/seventeen"
+           android:layout_toRightOf="@id/nine"/>
+        
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="19"
+           android:id="@+id/ninteen"
+           android:layout_below="@id/eighteen"
+           android:layout_toRightOf="@id/tvelve"/>
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="20"
+           android:id="@+id/tventy"
+           android:layout_below="@id/ninteen"
+           android:layout_toRightOf="@id/fifteen"/>
+        
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="21"
+           android:id="@+id/tventy1"
+           android:layout_toRightOf="@id/sixteen"/>
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="22"
+           android:id="@+id/tventy2"
+           android:layout_below="@id/tventy1"
+           android:layout_toRightOf="@id/seventeen"/>
+        
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="23"
+           android:id="@+id/tventy3"
+           android:layout_below="@id/tventy2"
+           android:layout_toRightOf="@id/eighteen"/>
+        
+        <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="24"
+           android:id="@+id/tventy4"
+           android:layout_below="@id/tventy3"
+           android:layout_toRightOf="@id/ninteen"></Button>
+           
+           <Button android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="25"
+           android:id="@+id/tventy5"
+           android:layout_below="@id/tventy4"
+           android:layout_toRightOf="@id/tventy"></Button>
+
+       
+       
+   </RelativeLayout>
+</LinearLayout>
